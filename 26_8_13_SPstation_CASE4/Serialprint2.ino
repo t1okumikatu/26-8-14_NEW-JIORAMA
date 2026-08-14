@@ -1,0 +1,60 @@
+ void Serialprint2(){
+ unsigned long nowTime = millis(); 
+ 
+  Serial.println(("========================="));
+  Serial.print(("startFlag------>  "));
+  Serial.println(startFlag);
+  Serial.print(("compete===> "));
+  Serial.println(compete);
+  Serial.print(("Train1Flag22==>Train2Flag32=="));
+  Serial.print(Train1Flag22);
+  Serial.println(Train2Flag32); 
+  Serial.println("~~~~~~~~~~~~~~~~~");
+  Serial.print("Train1Flag21 ==  ");
+  Serial.println(Train1Flag21); 
+  Serial.print(("Train1sesor21Flag1 ==>Train1sesor31Flag1 =="));
+  Serial.print(Train1sesor21Flag1);
+  Serial.println(Train1sesor31Flag1); 
+  Serial.println("~~~~~~~~~~~~~~~~~");
+  Serial.print(("Time22===>Time32  "));
+  Serial.print(Time22);
+  Serial.print(("  "));
+  Serial.println(Time32);
+  Serial.print(("TrainTimeSetFlag1234=="));
+  Serial.print(Train1TimeSetFlag1);
+  Serial.print(Train2TimeSetFlag2);
+  Serial.print(Train3TimeSetFlag3);
+  Serial.println(Train4TimeSetFlag4);
+  Serial.print(("nowTime=="));
+  Serial.println(nowTime);
+  Serial.print(("SubSetTime22===>MainSetTime32  "));
+  Serial.print(SubSetTime22);
+  Serial.print(("  "));
+  Serial.println(MainSetTime32);
+  Serial.print(("Data5 Data6  Data7=="));
+  Serial.print(Data5);
+  Serial.print(Data6);
+  Serial.println(Data7);
+  Serial.print(("SubServoTime22==>MainServoTime32  "));
+  Serial.print(SubServoTime22);
+  Serial.print(("  "));
+  Serial.println(MainServoTime32);
+ //=======================
+     Serial.print("Train==");
+     Serial.println(Train);
+     Serial.print("Se1234==");
+     Serial.print(Send1);
+     Serial.print("-");
+     Serial.print(Send2);
+     Serial.print("-");
+     Serial.print(Send3);
+     Serial.print("-");
+     Serial.println(Send4);
+     Serial.print("Data5==");
+     Serial.println(Data5);
+     Serial.print("Data6==");
+     Serial.println(Data6);
+     Serial.print("Data7==");
+     Serial.println(Data7);
+ }   
+ 
